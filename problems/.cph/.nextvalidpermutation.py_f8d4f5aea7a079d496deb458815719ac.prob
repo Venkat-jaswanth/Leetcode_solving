@@ -1,0 +1,1 @@
+{"name":"Local: nextvalidpermutation","url":"c:\\Users\\ASUS\\Desktop\\PROGRAMMING\\python\\problems\\nextvalidpermutation.py","tests":[{"id":1733691184045,"input":"7 34","output":"2 3 4 5 7 6 1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\ASUS\\Desktop\\PROGRAMMING\\python\\problems\\nextvalidpermutation.py","group":"local","local":true}
