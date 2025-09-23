@@ -28,8 +28,9 @@ Right now, I'm primarily focused on grinding through the **Strivers SDE Sheet** 
 
 I primarily use the following languages for my solutions:
 
-* **Python**
 * **C++**
+* **Python**
+
 
 ***
 
