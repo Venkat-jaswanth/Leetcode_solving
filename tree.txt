@@ -1,0 +1,121 @@
+Folder PATH listing for volume DevDrive
+Volume serial number is CA96-6780
+D:.
+|   .gitignore
+|   mini_template.cpp
+|   prac.cpp
+|   prac.exe
+|   template.cpp
+|   template.exe
+|   tree.txt
+|   
++---.vscode
+|       c_cpp_properties.json
+|       launch.json
+|       settings.json
+|       
++---General_Leetcode
+|   |   1092.py
+|   |   1524.py
+|   |   1749.py
+|   |   2460.py
+|   |   2467.py
+|   |   3169.py
+|   |   873.py
+|   |   88.PY
+|   |   94.py
+|   |   
+|   +---DP
+|   |       718_leet.py
+|   |       DP_maxcointwithXneutralizations.py
+|   |       
+|   \---problems
+|       |   1554_A.py
+|       |   1894_a.py
+|       |   263_A.py
+|       |   dfs_dp.py
+|       |   dfs_maxgold.py
+|       |   nestedrangescheck.py
+|       |   nextvalidpermoptimized.py
+|       |   nextvalidpermutation.py
+|       |   prefixSum2d.py
+|       |   segmentTreeApproach.py
+|       |   spiraltraveringMatrix.py
+|       |   stockbuy and sell.py
+|       |   
+|       +---.cph
+|       |       .nextvalidpermoptimized.py_4d54e2af2d1a58e37adfe404e1da9066.prob
+|       |       .nextvalidpermutation.py_f8d4f5aea7a079d496deb458815719ac.prob
+|       |       cc.c
+|       |       
+|       +---Binarysearchused
+|       |       aggressivecows.py
+|       |       allocateMinPages.py
+|       |       
+|       +---slidingWindow
+|       |       maxFrequency.py
+|       |       min_subarray with k.py
+|       |       
+|       \---SUBARRAY PROBLEMS
+|               MaxSubArrLength.py
+|               SUbArrSumDividedByK.PY
+|               SubArrSumIsK.py
+|               
++---POTD
+|       1733.cpp
+|       
++---Strivers A2Z
+|   +---ARRAYS
+|   |       subarraysumk.py
+|   |       tempCodeRunnerFile.py
+|   |       
+|   +---Basic maths
+|   |       count digits.py
+|   |       reverse num.py
+|   |       
+|   \---DYNAMIC PROGRAMMING
++---Strivers SDE Sheet
+|   +---arrays
+|   |       1.cpp
+|   |       118.cpp
+|   |       128.cpp
+|   |       169.cpp
+|   |       18.cpp
+|   |       229.cpp
+|   |       3.cpp
+|   |       31.cpp
+|   |       48.cpp
+|   |       50.cpp
+|   |       62.cpp
+|   |       74.cpp
+|   |       75.cpp
+|   |       
+|   +---Recursion
+|   |       121.cpp
+|   |       39.cpp
+|   |       40.cpp
+|   |       90.cpp
+|   |       
+|   \---Recursion and  backtracking
+|           46.cpp
+|           51.cpp
+|           
++---TOP Interview 150
+|       Jumpgame2.py
+|       length_of_lastword.py
+|       longest_common_prefix.py
+|       
+\---untrack
+    \---GFG
+        \---160
+                Atoi.py
+                camelcase,py
+                circularsubarraysum.py
+                insertinterval.py
+                KMPSEARCH.py
+                maxProdSubArr.py
+                minimize_heights.py
+                minremoval_nonoverlappingintervals.py
+                overlapping_interval.py
+                smallestposMissingNum.py
+                

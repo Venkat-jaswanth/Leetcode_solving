@@ -16,7 +16,6 @@ public:
             swap(nums[i], nums[idx]);
         }
     }
-
     vector<vector<int>> permute(vector<int>& nums) {
         vector<vector<int>> ans;
         helper(0, nums, ans);
@@ -42,7 +41,6 @@ public:
             }
         }
     }
-
     vector<vector<int>> permute(vector<int>& nums) {
         vector<vector<int>> ans;
         vector<int> freq(nums.size(),0);
