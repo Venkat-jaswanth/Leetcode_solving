@@ -8,15 +8,16 @@ bitset<500> bs[500];
 
 class Solution {
 public:
-    int minimumTeachings(int m, vector<vector<int>>& lang, vector<vector<int>>& frnd) {
-        int n = sz(lang);
-        for (int i = 0; i < n; i++) {
+    int minimumTeachings(int n, vector<vector<int>>& lang, vector<vector<int>>& frnd) {
+        int m = sz(lang);
+        for (int i = 0; i < m; i++) {
             bs[i].reset();
             for (auto &l : lang[i])
                 bs[i].set(--l);
         }
-        vector<bool> no_talk(n, false);
-        vector<int> freq(m, 0);
+        
+        vector<bool> no_talk(m, false);
+        vector<int> freq(n, 0);
         for (auto &vec : frnd) {
             int u = vec[0], v = vec[1];
             u--, v--;
