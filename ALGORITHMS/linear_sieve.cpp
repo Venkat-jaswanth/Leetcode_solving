@@ -2,20 +2,30 @@
 
 using namespace std;
 
-vector<int> primes;
-vector<int> lp; // lowest prime factor
-
-void linearSieve(int n) {
-    lp.assign(n + 1, 0);
-
-    for (int i = 2; i <= n; i++) {
-        if (lp[i] == 0) {
-            lp[i] = i;
+using vv = vector<int>;
+vv primes;
+vv ls;
+void linearsieve(int n){
+    ls.assign(n+1,0);
+    for(int i = 2; i<n; i++){
+        if(ls[i] == 0){
             primes.push_back(i);
+            ls[i] = i;
         }
-        for (int p : primes) {
-            if (p > lp[i] || i * p > n) break;
-            lp[i * p] = p;
+        for(auto p:primes){
+            if((i*p)>n || p>ls[i]) break;
+            ls[i*p] = p;
         }
     }
+}
+
+int main(){
+    int n;
+    cin >> n;
+    cout << '\n';
+    linearsieve(n);
+    for(auto p : primes){
+        cout << p << ",";
+    }
+
 }
