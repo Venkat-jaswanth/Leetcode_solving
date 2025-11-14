@@ -1,2 +1,4 @@
 untrack/
 .gitignore
+.cph/
+**/.cph/
