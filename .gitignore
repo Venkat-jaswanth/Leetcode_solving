@@ -2,3 +2,4 @@ untrack/
 .gitignore
 .cph/
 **/.cph/
+.exe
