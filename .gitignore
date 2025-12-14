@@ -2,4 +2,6 @@ untrack/
 .gitignore
 .cph/
 **/.cph/
+prac.cpp
+praccccc.cpp
 .exe
