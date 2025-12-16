@@ -35,5 +35,5 @@ public:
         if (l == 0) return prefixSum(r);
         return prefixSum(r) - prefixSum(l - 1);
     }
+    };
 };
-}
