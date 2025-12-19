@@ -30,10 +30,10 @@ int main() {
     s.insert(3);
 
     // Count elements strictly less than 9
-    std::cout << s.order_of_key(9) << std::endl; // Outputs 2 (elements 2, 3)
+    cout << s.order_of_key(9) << endl; // Outputs 2 (elements 2, 3)
 
     // Find the 1st smallest element (0-based index)
-    std::cout << *(s.find_by_order(1)) << std::endl; // Outputs 3
+    cout << *(s.find_by_order(1)) << endl; // Outputs 3
 
     return 0;
 }
